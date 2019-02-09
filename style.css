@@ -16,7 +16,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
@@ -82,8 +82,9 @@ body {
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
 }
-
 .btn-lg {
   border-width: medium;
-  border-radius: 0px;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1;
 }
